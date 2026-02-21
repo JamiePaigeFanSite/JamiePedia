@@ -7,6 +7,7 @@ html {
   background-image: url(public/images/backgrounds/critterwhitegreenred.png);
   background-attachment: fixed;
   background-color: white;
+  overflow-x: auto;
 }
 body {
   width: 900px;
@@ -15,6 +16,7 @@ body {
   margin-right: auto;
   padding-left: 0;
   padding-right: 0;
+  overflow-x: visible;
 }
 a {
   text-decoration: none;
