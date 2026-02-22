@@ -75,9 +75,21 @@
           
           <!-- Right View -->
           <div class="song-rightview">
+            <!-- Album Art Tabs -->
+            <div class="album-tabs-container">
+              <div class="album-tabs">
+                <button class="album-tab active" onclick="switchAlbumArt('ccolors.png')">Single</button>
+                <button class="album-tab" onclick="switchAlbumArt('cc.png')">Album</button>
+                <button class="album-tab" onclick="switchAlbumArt('ccde.png')">Deluxe</button>
+              </div>
+            </div>
             <!-- Cover Art -->
             <div class="song-cover">
-              <img src="../../public/images/cover-art/ccolors.png" alt="Cadmium Colors Album Cover" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+              <img id="album-art-image" src="../../public/images/cover-art/ccolors.png" alt="Cadmium Colors Single Cover" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+            </div>
+            <!-- Cover Art Credit -->
+            <div class="cover-art-footer">
+              <div class="cover-art-credit">Cover art by: <span id="cover-artist-display">REVERIEQUE</span></div>
             </div>
             
             <!-- Navigation Buttons -->
