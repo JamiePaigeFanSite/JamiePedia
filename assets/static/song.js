@@ -25,11 +25,13 @@ function switchAlbumArt(filename) {
   
   // Update cover artist based on selected album art
   const coverArtists = {
-    'ml.png': 'ReverieQue',
-    'cc.png': 'ReverieQue',
-    'ccde.png': 'ReverieQue',
+    'ml.png': 'REVERIEQUE',
+    'cc.png': 'REVERIEQUE',
+    'ccde.png': 'REVERIEQUE',
     'ddoll.jpg': 'Crispy6usiness',
-    'bdkt26.png': 'Kurumitsu'
+    'bdkt26.png': 'Kurumitsu',
+    'aa.png': 'RJ Lake',
+    'gr.jpg': 'kalrot',
   };
   document.getElementById('cover-artist-display').textContent = coverArtists[filename] || 'Jamie Paige';
 }
