@@ -133,15 +133,13 @@
 
 .cover-art-credit {
   font-family: "Nunito", sans-serif;
-  padding: 0px 2px;
-  background-color: #FFFFFF;
+  padding-top: 4px;
   font-size: 0.75em;
   color: #000;
   font-weight: 500;
-  border: 2px solid #000;
   border-top: none;
-  border-radius: 0px 0px 4px 4px;
   display: inline-block;
+  margin: auto;
 }
 
 .song-nav-buttons {
